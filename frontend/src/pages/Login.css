@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: 1;
+}
+
+.image {
+  padding: 18px;
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 600px;
+}
+
+img {
+  border-radius: 200px;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 190px;
+}
+
+form {
+  margin: auto;
+  padding: 30px;
+  box-shadow: 10px 10px 20px #000;
+  border-radius: 10px;
+  border: none;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.typography {
+  text-align: center;
+  padding: 16px;
+  font-weight: 600;
+}
+
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgb(131, 131, 131) !important;
+}
