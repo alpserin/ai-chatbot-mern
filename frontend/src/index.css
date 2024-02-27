@@ -8,3 +8,7 @@ body {
   color: white;
   font-family: "Roboto", serif;
 }
+
+.logo {
+  text-decoration: none;
+}
