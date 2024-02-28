@@ -1,5 +1,4 @@
 import { Typography } from "@mui/material";
-import React from "react";
 import { Link } from "react-router-dom";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";

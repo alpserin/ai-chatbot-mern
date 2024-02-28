@@ -9,7 +9,7 @@
   padding: 18px;
   margin-top: 20px;
   margin-left: 50px;
-  height: 600px;
+  height: 620px;
 }
 
 img {
@@ -28,9 +28,10 @@ img {
 form {
   margin: auto;
   padding: 30px;
-  box-shadow: 10px 10px 20px #000;
+  box-shadow: 10px 20px #000;
   border-radius: 10px;
   border: none;
+  background-color: rgb(35, 35, 35);
 }
 
 .form-box {
@@ -43,6 +44,22 @@ form {
   text-align: center;
   padding: 16px;
   font-weight: 600;
+}
+
+.submit-button {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  padding-top: 8px !important;
+  padding-bottom: 4px !important;
+  width: 400px !important;
+  border-radius: 8px !important;
+  background-color: white !important;
+  color: black !important;
+}
+
+.submit-button:hover {
+  background-color: beige !important;
+  color: black !important;
 }
 
 .MuiOutlinedInput-input-root.Mui-focused,
